@@ -20,13 +20,14 @@ This system verifies medicine authenticity through cryptographically signed QR/D
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** React Native (Mobile App), React.js (Web Dashboard)  
-- **Backend:** FastAPI / Node.js  
-- **Database:** PostgreSQL  
-- **Cloud:** AWS / Azure / GCP  
-- **Security:** ECDSA Digital Signatures, Cloud KMS  
-- **Analytics:** Python, Pandas, Machine Learning Models
+## 🛠️ Tech Stack :
+- **Architecture:** Web based client -> flask API -> JSON (simulated blockchain )
+- **Frontend:** Html, CSS , JavaScript 
+- **Backend:** Python Flask
+- **Database:** JSON Database (drug_data_extended.json) 
+- **Voice:** Hindi output using pyttsx3
+- **QR Genarator:** Auto generates QR codes on startupt for drug IDs.   
+
 
 ---
 
