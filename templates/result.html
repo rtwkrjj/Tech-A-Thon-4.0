@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Verification Result</title>
+</head>
+<body>
+  <h2>Verification Result</h2>
+
+  {% if drug %}
+    <p><strong>Drug Name:</strong> {{ drug.name }}</p>
+    <p><strong>Manufacturer:</strong> {{ drug.manufacturer }}</p>
+    <p><strong>Expiry Date:</strong> {{ drug.expiry }}</p>
+
+    <p><strong>Status:</strong>
+      {% if not drug.authentic %}
+        ❌ <span style="color:red;">Counterfeit</span>
+      {% elif expired %}
+        ⚠️ <span style="color:orange;">Expired</span>
+      {% else %}
+        ✅ <span style="color:green;">Authentic and Safe</span>
+      {% endif %}
+    </p>
+  {% else %}
+    <p style="color:red;">Tag ID {{ tag_id }} not found in database.</p>
+  {% endif %}
+
+  <br><a href="/">🔁 Verify Another</a>
+
+  <!-- Hindi Voice Feedback Script -->
+  <script>
+    function speakHindi(message) {
+      const utterance = new SpeechSynthesisUtterance(message);
+      utterance.lang = 'hi-IN';
+      utterance.rate = 1.0;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    {% if drug %}
+      {% if not drug.authentic %}
+        speakHindi("यह दवा नकली है। कृपया इसका उपयोग न करें।");
+      {% elif expired %}
+        speakHindi("दवा की समय सीमा समाप्त हो चुकी है। कृपया उपयोग न करें।");
+      {% else %}
+        speakHindi("दवा मान्य है। आप इसे सुरक्षित रूप से ले सकते हैं।");
+      {% endif %}
+    {% else %}
+      speakHindi("यह दवा अमान्य है। कृपया डॉक्टर से संपर्क करें।");
+    {% endif %}
+  </script>
+</body>
+</html>

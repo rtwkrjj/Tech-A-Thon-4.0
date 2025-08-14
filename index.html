@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drug Verification System</title>
+  <script src="https://unpkg.com/html5-qrcode"></script>
+  <style>
+    :root {
+      --primary: #4361ee;
+      --secondary: #3f37c9;
+      --success: #4cc9f0;
+      --danger: #f72585;
+      --warning: #f8961e;
+      --light: #f8f9fa;
+      --dark: #212529;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+
+    .subtitle {
+      color: #6c757d;
+      font-size: 1.1rem;
+    }
+
+    .verification-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .scanner-container,
+    .manual-verify {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    #reader {
+      width: 100%;
+      margin: 1rem 0;
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      min-height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #reader img {
+      max-width: 100%;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.25);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background-color: var(--secondary);
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+
+    .drug-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .drug-card {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .drug-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .drug-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+
+    .drug-id {
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+
+    .drug-name {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    .scanner-controls {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .btn-danger {
+      background-color: var(--danger);
+    }
+
+    .btn-danger:hover {
+      background-color: #d1144a;
+    }
+
+    .btn-success {
+      background-color: var(--success);
+    }
+
+    .btn-success:hover {
+      background-color: #3aa8d8;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #dee2e6;
+      color: #6c757d;
+    }
+
+    @media (max-width: 768px) {
+      .verification-section {
+        flex-direction: column;
+      }
+
+      .drug-cards {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      }
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-image: url("{{ url_for('static', filename='images/banner.jpg') }}");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="banner"></section>
+
+  <div class="container">
+    <header>
+      <h1>Drug Verification System</h1>
+      <p class="subtitle">Verify authenticity and expiry of pharmaceutical products</p>
+    </header>
+
+    <div class="verification-section">
+      <div class="scanner-container">
+        <h2 class="section-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+          </svg>
+          QR Code Scanner
+        </h2>
+        <div id="reader"></div>
+        <div class="scanner-controls">
+          <button id="startScanner" class="btn btn-success">Start Scanner</button>
+          <button id="stopScanner" class="btn btn-danger" disabled>Stop Scanner</button>
+        </div>
+      </div>
+
+      <div class="manual-verify">
+        <h2 class="section-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Manual Verification
+        </h2>
+        <form id="manualVerifyForm" method="POST" action="/verify">
+          <div class="form-group">
+            <label for="drugId">Enter Drug ID</label>
+            <input type="text" id="drugId" name="tag_id" placeholder="e.g. DRUG1001" required>
+          </div>
+          <button type="submit" class="btn btn-block">Verify</button>
+        </form>
+      </div>
+    </div>
+
+    <h2 class="section-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="7" height="7"></rect>
+        <rect x="14" y="3" width="7" height="7"></rect>
+        <rect x="14" y="14" width="7" height="7"></rect>
+        <rect x="3" y="14" width="7" height="7"></rect>
+      </svg>
+      Sample Drug IDs
+    </h2>
+    <div class="drug-cards" id="drugCards"></div>
+
+    <footer>
+      <p>Drug Verification System &copy; 2023 | Pharmaceutical Safety Platform</p>
+    </footer>
+  </div>
+
+  <script>
+    // Sample drug data
+    const drugData = {
+      "DRUG1001": { name: "Paracetamol", expiry: "2024-12-31", authentic: true },
+      "DRUG1002": { name: "Ibuprofen", expiry: "2025-06-30", authentic: true },
+      "DRUG1003": { name: "Amoxicillin", expiry: "2024-09-15", authentic: true },
+      "FAKE1001": { name: "Counterfeit Drug", expiry: "2023-12-31", authentic: false },
+      "FAKE1002": { name: "Fake Medicine", expiry: "2022-06-30", authentic: false }
+    };
+
+    // Generate drug cards
+    const drugCardsContainer = document.getElementById('drugCards');
+    Object.entries(drugData).forEach(([id, drug]) => {
+      const card = document.createElement('div');
+      card.className = 'drug-card';
+      card.innerHTML = `
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${id}" alt="${id}">
+        <div class="drug-id">${id}</div>
+        <div class="drug-name">${drug.name}</div>
+      `;
+      card.addEventListener('click', () => {
+        document.getElementById('drugId').value = id;
+      });
+      drugCardsContainer.appendChild(card);
+    });
+
+    // QR Scanner Logic
+    const html5QrCode = new Html5Qrcode("reader");
+    const startScannerBtn = document.getElementById('startScanner');
+    const stopScannerBtn = document.getElementById('stopScanner');
+
+    startScannerBtn.addEventListener('click', () => {
+      Html5Qrcode.getCameras().then(cameras => {
+        if (cameras && cameras.length) {
+          const cameraId = cameras[0].id;
+          html5QrCode.start(
+            cameraId,
+            {
+              fps: 10,
+              qrbox: { width: 250, height: 250 }
+            },
+            qrCodeMessage => {
+              // Submit form when QR is scanned
+              document.getElementById('drugId').value = qrCodeMessage;
+              document.getElementById('manualVerifyForm').submit();
+            },
+            errorMessage => {
+              console.error(errorMessage);
+            }
+          ).then(() => {
+            startScannerBtn.disabled = true;
+            stopScannerBtn.disabled = false;
+          });
+        } else {
+          alert('No cameras found. Please check your device permissions.');
+        }
+      }).catch(err => {
+        console.error(err);
+        alert('Unable to access camera. Please ensure you have granted camera permissions.');
+      });
+    });
+
+    stopScannerBtn.addEventListener('click', () => {
+      html5QrCode.stop().then(() => {
+        startScannerBtn.disabled = false;
+        stopScannerBtn.disabled = true;
+      }).catch(err => {
+        console.error(err);
+      });
+    });
+
+    // Form submission handler
+    document.getElementById('manualVerifyForm').addEventListener('submit', (e) => {
+      const drugId = document.getElementById('drugId').value.trim().toUpperCase();
+      if (!drugId) {
+        e.preventDefault();
+        alert('Please enter a valid Drug ID');
+      }
+    });
+  </script>
+</body>
+
+</html>

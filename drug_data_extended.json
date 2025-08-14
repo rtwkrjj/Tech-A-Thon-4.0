@@ -1,0 +1,1402 @@
+{
+  "DRUG1001": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-03-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1002": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-11-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1003": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2030-06-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1004": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-08-31",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1005": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-07-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1006": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-06-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1007": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-06-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1008": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-06-03",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1009": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-09-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1010": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-04-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1011": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-12-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1012": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-02-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1013": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-02-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1014": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2030-04-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1015": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-10-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1016": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-07-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1017": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-03-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1018": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-06-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1019": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-02-01",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1020": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-07-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1021": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-07-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1022": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-08-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1023": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-03-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1024": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2030-04-26",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1025": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-03-14",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1026": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2029-11-28",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1027": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-01-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1028": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-06-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1029": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-01-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1030": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-11-10",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1031": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-01-02",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1032": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-08-26",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1033": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-08-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1034": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-01-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1035": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-03-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1036": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-12-03",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1037": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-11-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1038": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-02-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1039": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-03-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1040": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-04-01",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1041": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-07-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1042": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-05-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1043": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-09-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1044": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-10-22",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1045": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-07-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1046": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-11-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1047": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-02-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1048": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-05-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1049": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-12-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1050": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-10-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1051": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-01-01",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1052": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2030-04-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1053": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-01-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1054": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-08-14",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1055": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-08-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1056": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-05-29",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1057": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-03-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1058": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-05-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1059": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2029-02-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1060": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-06-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1061": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-09-22",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1062": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-10-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1063": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-10-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1064": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-11-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1065": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-06-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1066": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-09-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1067": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-01-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1068": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-03-23",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1069": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-05-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1070": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2030-07-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1071": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-06-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1072": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-10-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1073": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-01-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1074": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-04-26",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1075": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-07-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1076": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-10-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1077": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-08-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1078": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-02-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1079": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-03-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1080": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-04-28",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1081": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-06-22",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1082": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-05-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1083": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-10-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1084": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-11-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1085": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2030-01-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1086": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-08-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1087": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-07-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1088": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-03-06",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1089": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-08-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1090": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-08-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1091": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-08-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1092": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2029-06-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1093": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-05-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1094": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-07-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1095": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-08-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1096": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-04-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1097": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-02-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1098": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-04-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1099": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-11-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1100": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-08-29",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1101": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-06-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1102": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-06-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1103": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-01-31",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1104": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-02-02",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1105": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-09-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1106": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-12-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1107": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-02-10",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1108": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2026-09-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1109": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-09-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1110": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-03-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1111": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-02-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1112": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-05-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1113": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-05-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1114": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-02-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1115": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-01-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1116": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-12-31",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1117": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-09-28",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1118": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-09-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1119": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-07-28",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1120": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2026-08-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1121": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-01-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1122": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-02-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1123": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-02-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1124": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-06-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1125": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-06-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1126": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-02-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1127": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-09-08",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1128": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2030-05-18",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1129": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-01-02",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1130": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-12-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1131": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-03-10",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1132": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-04-07",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1133": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-08-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1134": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-07-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1135": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-10-26",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1136": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-08-14",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1137": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-12-03",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1138": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-03-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1139": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-02-27",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1140": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2029-05-01",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1141": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-07-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1142": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-10-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1143": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-07-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1144": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-10-06",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1145": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-11-29",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1146": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-10-14",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1147": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-08-21",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1148": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-01-20",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1149": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2030-06-02",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1150": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2026-02-06",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1151": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-09-24",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1152": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-05-09",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1153": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-08-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1154": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-06-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1155": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-06-15",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1156": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-07-22",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1157": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-01-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1158": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2028-10-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1159": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-02-25",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1160": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2027-01-21",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1161": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2028-09-17",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1162": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-12-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1163": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2029-10-06",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1164": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2029-01-21",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1165": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-06-05",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1166": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-03-12",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1167": {
+    "name": "Paracetamol",
+    "manufacturer": "ABC Pharma",
+    "expiry": "2026-07-01",
+    "authentic": true,
+    "source": "https://www.drugs.com/paracetamol.html"
+  },
+  "DRUG1168": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-10-11",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1169": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2029-02-04",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1170": {
+    "name": "Hydroxychloroquine",
+    "manufacturer": "Accord Healthcare",
+    "expiry": "2027-12-27",
+    "authentic": true,
+    "source": "https://www.drugs.com/plaquenil.html"
+  },
+  "DRUG1171": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2027-11-26",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1172": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-12-23",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1173": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-08-06",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1174": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2028-10-27",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1175": {
+    "name": "Tramadol",
+    "manufacturer": "Amneal Pharma",
+    "expiry": "2027-05-21",
+    "authentic": true,
+    "source": "https://www.drugs.com/tramadol.html"
+  },
+  "DRUG1176": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2027-06-13",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1177": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2028-01-23",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1178": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2026-04-16",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "DRUG1179": {
+    "name": "Ertapenem",
+    "manufacturer": "ACS Dobfar",
+    "expiry": "2029-01-30",
+    "authentic": true,
+    "source": "https://www.drugs.com/invanz.html"
+  },
+  "DRUG1180": {
+    "name": "Ibuprofen",
+    "manufacturer": "XYZ Pharma",
+    "expiry": "2028-02-19",
+    "authentic": true,
+    "source": "https://www.drugs.com/ibuprofen.html"
+  },
+  "FAKE1001": {
+    "name": "Counterfeit Drug 1",
+    "manufacturer": "Unknown",
+    "expiry": "2024-06-07",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1002": {
+    "name": "Counterfeit Drug 2",
+    "manufacturer": "Unknown",
+    "expiry": "2024-12-08",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1003": {
+    "name": "Counterfeit Drug 3",
+    "manufacturer": "Unknown",
+    "expiry": "2024-05-11",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1004": {
+    "name": "Counterfeit Drug 4",
+    "manufacturer": "Unknown",
+    "expiry": "2025-01-25",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1005": {
+    "name": "Counterfeit Drug 5",
+    "manufacturer": "Unknown",
+    "expiry": "2023-07-10",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1006": {
+    "name": "Counterfeit Drug 6",
+    "manufacturer": "Unknown",
+    "expiry": "2023-12-15",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1007": {
+    "name": "Counterfeit Drug 7",
+    "manufacturer": "Unknown",
+    "expiry": "2023-03-02",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1008": {
+    "name": "Counterfeit Drug 8",
+    "manufacturer": "Unknown",
+    "expiry": "2023-04-17",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1009": {
+    "name": "Counterfeit Drug 9",
+    "manufacturer": "Unknown",
+    "expiry": "2023-07-11",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1010": {
+    "name": "Counterfeit Drug 10",
+    "manufacturer": "Unknown",
+    "expiry": "2022-12-09",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1011": {
+    "name": "Counterfeit Drug 11",
+    "manufacturer": "Unknown",
+    "expiry": "2023-11-22",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1012": {
+    "name": "Counterfeit Drug 12",
+    "manufacturer": "Unknown",
+    "expiry": "2023-03-05",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1013": {
+    "name": "Counterfeit Drug 13",
+    "manufacturer": "Unknown",
+    "expiry": "2025-02-14",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1014": {
+    "name": "Counterfeit Drug 14",
+    "manufacturer": "Unknown",
+    "expiry": "2023-09-14",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1015": {
+    "name": "Counterfeit Drug 15",
+    "manufacturer": "Unknown",
+    "expiry": "2024-10-24",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1016": {
+    "name": "Counterfeit Drug 16",
+    "manufacturer": "Unknown",
+    "expiry": "2025-01-09",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1017": {
+    "name": "Counterfeit Drug 17",
+    "manufacturer": "Unknown",
+    "expiry": "2024-04-21",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1018": {
+    "name": "Counterfeit Drug 18",
+    "manufacturer": "Unknown",
+    "expiry": "2024-10-17",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1019": {
+    "name": "Counterfeit Drug 19",
+    "manufacturer": "Unknown",
+    "expiry": "2023-06-23",
+    "authentic": false,
+    "source": "unknown"
+  },
+  "FAKE1020": {
+    "name": "Counterfeit Drug 20",
+    "manufacturer": "Unknown",
+    "expiry": "2024-08-21",
+    "authentic": false,
+    "source": "unknown"
+  }
+}
